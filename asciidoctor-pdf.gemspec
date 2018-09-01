@@ -3,7 +3,7 @@ require File.expand_path '../lib/asciidoctor-pdf/version', __FILE__
 require 'open3' unless defined? Open3
 
 Gem::Specification.new do |s|
-  s.name = 'asciidoctor-pdf'
+  s.name = 'my-asciidoctor-pdf'
   s.version = Asciidoctor::Pdf::VERSION
 
   s.summary = 'Converts AsciiDoc documents to PDF using Prawn'
